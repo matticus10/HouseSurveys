@@ -1,0 +1,29 @@
+﻿/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    /*.jumbotron {
+        margin-top: 20px;
+    }*/
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+#menu {
+    background: #04304C;
+}
+
+#header {
+    background: #006098;
+    color: #FFFFFF;
+}
+
+.styled {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+}
+
+textarea {
+    resize: none !important;
+}
